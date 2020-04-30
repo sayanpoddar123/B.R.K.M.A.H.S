@@ -1,0 +1,193 @@
+  ul ul{
+    position: absolute;
+    /* min-width: 200px; */
+    /* background-color:black;  */
+    display: none;
+   margin-left: -45px;
+    /* box-sizing:border-box;
+   border: 1px solid white; */
+  
+
+} 
+body{
+  background-color:yellow;
+}
+ul ul li{
+    
+    min-width: 200px;
+    display: block;
+    /* background-color: #000000; */
+   
+    text-decoration: none;
+    display: flex;
+    
+    box-sizing:border-box;
+    background-color: red;
+   border: 1px solid rgb(255, 255, 255);
+}
+ul li:hover ul{
+     display: block; 
+    text-decoration: none;
+   
+    
+} 
+ul ul li a:hover {
+    text-decoration: none;
+    color: black;
+  
+    background-color: #ffffcc;
+    width: 100%;
+    box-sizing:border-box;
+    border: 1px solid white;
+}
+
+ul ul li a.ho:hover {
+   
+  box-sizing:border-box;
+   border: 1px solid white;
+}
+.drop{
+  color: white;
+  
+}
+.navbar{
+ 
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  height: auto;
+}
+.nav-item{
+    padding-left:1vw;
+    padding-right:1vw;
+}
+.navbar{
+    background-color:  #990000;
+   
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item:hover{
+    background-color: #cc0000;
+    font-size: 22px;
+} 
+.abc{
+            
+            width: auto; height: 100px; background-color: blue;
+            font-size: 50px;
+            padding-top: 8px;
+            color: white;
+            padding-bottom: 25px;
+            display: flex;
+            
+        }
+        
+    
+    body {
+  margin: 0;
+  padding: 0;
+
+}
+.lol{
+  background-color: red;
+}
+.academics{
+    text-align: center;
+    padding-top: 20px;
+    padding-left:30px;
+    background-color: ;
+    
+}
+body{
+  background-color: red;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0z7QSU8Sjr_zFB5rbBCqQuN91grwjJO2zfNo4Df-WKZsw86dZ&usqp=CAU);
+}
+.container-fluid{
+  background-color:#ccc ;
+  color: red;
+  padding-left: 20px;
+  
+}
+.lol{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0z7QSU8Sjr_zFB5rbBCqQuN91grwjJO2zfNo4Df-WKZsw86dZ&usqp=CAU);
+}
+.fix{
+   
+    width: 100%;
+    height:10em;
+   
+    position: fixed ;
+    top:0;
+    z-index: 9999;
+    background-color:  #003d99;
+    
+}
+.topbar{
+  padding-left: 60vh;
+  display: flex;
+  background-color: black;
+  width: 100%;
+   height: 3vh;
+   font-size: 12px;
+    justify-content: space-around;
+    padding-right:5vw;
+    width:100%;
+    background-color: black;
+   
+    display: flex;
+    justify-content: space-around;
+    height: 3vh;
+    padding-left:60vw;
+    font-size: 14px;
+    padding-right:5vw;
+    padding-bottom: 10px;
+}
+.topbar a{
+    color: white;
+    padding:1px;
+    font-weight: lighter;
+}
+.topbar a:hover{
+    color:red;
+    text-decoration: none;
+}
+.about{
+    display: flex;
+    height: auto;
+   
+   justify-content: space-around;
+}
+.about a,.about2 a{
+    color:black;
+}
+.about2{
+    display: flex;
+    height: auto;
+  
+   justify-content: space-around;
+
+}
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content:flex-end;
+    padding: 2px;
+    padding-right: 5px;
+}
+
+  .about a:hover,.about2 a:hover{
+    color:red;
+}
+.card:hover{
+    font-size: 20px;
+    color:red;
+    cursor: pointer;
+
+}
