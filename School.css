@@ -157,6 +157,13 @@ body{
     color:red;
     text-decoration: none;
 }
+.container{
+  margin: 4vh;
+}
+.card{
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
 .about{
     display: flex;
     height: auto;
